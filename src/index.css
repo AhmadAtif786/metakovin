@@ -1,0 +1,448 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: linear-gradient(90deg, #00051a 45.2%, #385979 100%);
+}
+p {
+  font-family: Roboto !important;
+  color: #000000;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.logoimg {
+  width: 200px;
+  margin: auto;
+  display: flex;
+}
+.firstheading {
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.bgcolor {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    to left,
+    rgba(172, 37, 37, 1),
+    rgba(32, 34, 55, 1)
+  );
+}
+.dataRow {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 5px 0;
+  color: white;
+  font-size: 18px;
+  line-height: 35px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.ant-input-affix-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: white;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+  display: inline-flex;
+}
+.ant-input-affix-wrapper {
+  height: 45px;
+  margin: 0;
+  position: relative;
+  border: 1px solid gray;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: transparent;
+}
+.ant-input {
+  border: none !important;
+  color: white;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+
+  text-align: center;
+  padding-left: 25px;
+  width: 40%;
+  margin: auto;
+}
+
+.ant-input-prefix,
+.ant-input-suffix {
+  display: flex;
+  flex: none;
+  align-items: center;
+}
+.ant-input-suffix {
+  margin-left: 4px;
+}
+
+.ant-input-suffix {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #b73e2d;
+  cursor: pointer;
+  border-radius: 100px;
+  text-align: center;
+  padding: 1rem;
+}
+.suffix {
+  padding-right: 10px;
+}
+.buyButton {
+  border: 1px solid #5e5c58;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 42px;
+  padding: 3px 0;
+  text-align: center;
+  display: block;
+  height: 47px;
+  width: 100%;
+  background: transparent;
+  margin-top: 17px;
+}
+.buyButton1 {
+  border: 2px solid #131212;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 42px;
+  padding: 3px 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background: rgba(183, 62, 45, 1);
+  margin-top: 17px;
+}
+.buyButton3 {
+  border: 2px solid #131212;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 42px;
+  padding: 3px 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background: rgba(183, 62, 45, 1);
+  margin-top: 17px;
+}
+.buyButton:hover {
+  border: 2px solid #fff;
+}
+.socialMedias {
+  display: flex;
+  justify-content: center;
+}
+.solbutton {
+  height: 50px;
+  text-decoration: none !important;
+  border-radius: 100px;
+  position: relative;
+  border: 2px solid rgb(56, 104, 194);
+  color: white;
+  overflow: hidden;
+  transition: all 0.5s ease 0s;
+  background: #000000;
+
+  display: block;
+}
+.solbutton:hover {
+  border: 2px solid #fff;
+}
+.actionWrapper {
+  margin-top: 30px;
+  border-top: 1px dashed #ffc806;
+  padding-top: 20px;
+}
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.actionButtons button {
+  width: calc(50% - 10px);
+  text-align: center;
+  border: 2px solid #ffc806;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  padding: 8px 0;
+  background: transparent;
+  border-radius: 15px;
+}
+.actionButtons button:hover {
+  border: 2px solid #fff;
+}
+.rightdiv {
+  padding: 1.7rem 1.2rem 0.7rem 1.5rem;
+}
+.righttext {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.text1 {
+  color: white !important;
+  font-weight: 500;
+  font-size: 19px;
+  font-family: Roboto;
+}
+.refWrapper {
+  display: flex;
+
+  align-items: center;
+}
+.copyButton {
+  border: 2px solid #ffc806;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 5px 20px;
+  background: transparent;
+  color: #fff;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+.copyButton:hover {
+  cursor: pointer;
+}
+input::placeholder {
+  color: white;
+}
+a {
+  text-decoration: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.copyButton:hover {
+  border: 2px solid #fff;
+}
+input {
+  height: 34px;
+  width: 100px;
+  text-align: center;
+  font-size: 26px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.margin1 {
+  margin: 3.5rem 0rem 1rem !important;
+}
+.nut {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.buttoncreator {
+  background-color: unset !important;
+  border: none !important;
+  padding: unset !important;
+  margin: unset !important;
+}
+.popupcls {
+  width: 100%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 68, 86, 1),
+    rgba(255, 74, 46, 1)
+  );
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+.modal-content {
+  background-color: #fff4f4;
+  padding: 1rem 4rem 0rem 4rem !important;
+}
+.modal-title {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.modal-header {
+  border: none !important;
+}
+.modal-footer {
+  border: none !important;
+}
+.bgnav {
+  border-radius: 100px;
+  padding: 10px 40px;
+}
+.topbutton {
+  background-color: rgba(183, 62, 45, 1) !important;
+  font-weight: 500 !important;
+  font-family: Roboto !important;
+  padding: 10px 25px !important;
+  font-size: 15px;
+  border-radius: 17px !important;
+  border: none !important;
+}
+.mob {
+  display: none !important;
+}
+.des {
+  display: block !important;
+}
+.backgroundhome {
+  background-image: url("./Images/bghome.png");
+
+  background-size: cover;
+}
+.bgmint {
+  background-image: url("./Images/bgmint.png");
+
+  background-size: cover;
+}
+.bgthirds {
+  background-image: url("./Images/bgthird.png");
+
+  background-size: cover;
+}
+.mainhead {
+  font-weight: 500 !important;
+  font-family: Roboto !important;
+  font-size: 26px;
+  color: #fff;
+  line-height: 38px;
+}
+.bgsecond {
+  background: linear-gradient(
+    180deg,
+    #00051a 0%,
+    #00051a 0.01%,
+    rgba(0, 5, 26, 0.48) 128.81%
+  );
+}
+.bgthird {
+  background: linear-gradient(180deg, #02071b 0%, rgba(73, 67, 79, 0.68) 100%);
+}
+.mainpara {
+  color: white;
+  font-family: Roboto;
+  text-align: justify;
+}
+.featurepara {
+  font-family: Roboto;
+
+  font-size: 14px;
+
+  color: white;
+  text-align: justified;
+}
+.foot {
+  width: 25px;
+  margin-left: 60px;
+}
+.marginfirst {
+  margin-bottom: 50px;
+}
+.bgsecondsec {
+  background-color: rgba(0, 4, 20, 1) !important;
+  padding: 1.5rem !important;
+}
+.rowgut {
+  --bs-gutter-x: 5.5rem !important;
+}
+.para {
+  margin-bottom: 5px !important;
+  color: white;
+  font-family: Roboto;
+}
+.para1 {
+  margin-bottom: 0px !important;
+  color: white;
+  font-family: Roboto;
+}
+.block {
+  border: 2px solid gray;
+  padding: 10px;
+  max-width: 180px;
+  border-radius: 15px;
+}
+.thirdpara {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  /* font-weight: 600; */
+}
+.third {
+  width: 300px;
+  margin: auto;
+  display: flex;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255) !important;
+  padding-left: 50px !important;
+  font-family: Roboto;
+}
+@media (min-width: 576px) {
+  .modal-content {
+    background-color: #fff4f4;
+    padding: 1rem 4rem 0rem 4rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .foot {
+    width: 25px;
+    margin-left: 10px;
+  }
+  .rowgut {
+    --bs-gutter-x: unset !important;
+  }
+  .mob {
+    display: block !important;
+  }
+  .des {
+    display: none !important;
+  }
+  #ma {
+    display: none;
+  }
+  .hide {
+    display: none !important;
+  }
+  .margin1 {
+    margin-top: 2rem !important;
+  }
+  .paragraph {
+    color: white;
+    font-size: 10px;
+  }
+}
