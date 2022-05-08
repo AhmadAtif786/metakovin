@@ -398,7 +398,7 @@ input {
   color: white;
   font-family: Roboto;
   font-size: 20px;
-  /* font-weight: 600; */
+  font-weight: 500;
 }
 .third {
   width: 300px;
@@ -416,7 +416,43 @@ input {
     padding: 1rem 4rem 0rem 4rem;
   }
 }
+.spac {
+  margin-top: 30px !important;
+}
+.close {
+  color: white !important;
+}
+.overlay {
+  background: linear-gradient(
+    89.79deg,
+    rgba(24, 35, 55, 0.46) 26.5%,
+    rgba(25, 26, 27, 0) 97.84%
+  );
+}
+.marc {
+  margin-left: 40px;
+}
+.sp {
+  margin-top: 11px;
+}
+@media only screen and (max-width: 1020px) {
+  .buyButton3 {
+    border: 2px solid #131212;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 12px;
+  }
+}
 @media only screen and (max-width: 700px) {
+  .marc {
+    margin-left: unset;
+  }
+  .spac {
+    margin-top: unset !important;
+  }
+  .mbl {
+    margin-top: 30px !important;
+  }
   .foot {
     width: 25px;
     margin-left: 10px;

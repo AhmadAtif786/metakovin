@@ -269,7 +269,7 @@ const MintCard = () => {
                   </p>
                   <input
                     type="text"
-                    placeholder="100"
+                    placeholder="0"
                     className="buyButton mt-2"
                   />
                   <button class="buyButton1 mt-4 mb-5">Hire 0 Aliens</button>
@@ -283,7 +283,7 @@ const MintCard = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6}>
+          <Col md={6} className="mbl">
             {" "}
             <Card
               style={{
@@ -315,7 +315,7 @@ const MintCard = () => {
                   </span>
                 </p>
                 <br />
-                <p className="para mt-2">Estimated daily yield</p>
+                <p className="para sp">Estimated daily yield</p>
                 <p className="para">
                   O{" "}
                   <span
@@ -328,7 +328,7 @@ const MintCard = () => {
                   </span>
                 </p>
                 <br />
-                <p className="para mt-3">Compound Count : 0 times</p>
+                <p className="para sp">Compound Count : 0 times</p>
                 <button class="buyButton3 mt-4">Sell City </button>
 
                 <button class="buyButton3 mt-4 mb-5">
