@@ -107,7 +107,7 @@ const Home = () => {
                           onClick={connect}
                           style={{ width: "100%" }}
                         />
-                        <hr />
+                        <hr style={{ color: "white" }} />
                         <img src={con} style={{ width: "100%" }} />
                       </div>
                     </div>

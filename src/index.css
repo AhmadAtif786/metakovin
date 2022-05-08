@@ -448,3 +448,15 @@ input {
     padding: 1rem 2rem 0rem 2rem !important;
   }
 }
+hr:not([size]) {
+  height: 2px !important;
+  color: white;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 1 !important;
+}
