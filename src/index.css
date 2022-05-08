@@ -464,6 +464,13 @@ input {
   }
 }
 @media only screen and (max-width: 700px) {
+  #timer {
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 0 20px #48c8ff;
+    text-align: center;
+  }
   .marc {
     margin-left: unset;
   }
