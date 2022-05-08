@@ -330,7 +330,7 @@ const Navbartop = () => {
                 role="dialog"
                 aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
-                style={{ top: "200px" }}
+                style={{ top: "50px" }}
               >
                 <div class="modal-dialog" role="document">
                   <div
