@@ -66,7 +66,7 @@ const Navbartop = () => {
               >
                 How to Play
               </Nav.Link>
-              <Nav.Link href="#pricing">
+              <Nav.Link>
                 {" "}
                 <button
                   className="bg-transparent"
