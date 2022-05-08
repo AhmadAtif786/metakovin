@@ -26,7 +26,7 @@ const Footer = () => {
           <img src={five} className="foot" />
         </a>
       </div>
-      <p className="para mb-3 mt-2 marc" style={{ textAlign: "center" }}>
+      <p className="para mb-3 mt-4 marc" style={{ textAlign: "center" }}>
         © rise of mars, All Rights Reserved
       </p>
     </footer>

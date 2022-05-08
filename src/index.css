@@ -364,10 +364,12 @@ input {
   color: white;
   text-align: justified;
 }
+
 .foot {
-  width: 25px;
-  margin-left: 60px;
+  width: 30px;
+  margin-left: 80px;
 }
+
 .marginfirst {
   margin-bottom: 50px;
 }
