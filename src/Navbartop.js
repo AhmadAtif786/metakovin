@@ -47,7 +47,7 @@ const Navbartop = () => {
   return (
     <div>
       <Navbar
-        collapseOnSelect
+        // collapseOnSelect
         expand="lg"
         variant="dark"
         style={{ backgroundColor: "#160C16" }}

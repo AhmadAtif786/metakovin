@@ -106,9 +106,7 @@ code {
   text-align: center;
   padding: 1rem;
 }
-.suffix {
-  padding-right: 10px;
-}
+
 .buyButton {
   border: 1px solid #5e5c58;
   border-radius: 15px;
@@ -444,5 +442,9 @@ input {
   .paragraph {
     color: white;
     font-size: 10px;
+  }
+  .modal-content {
+    background-color: #fff4f4;
+    padding: 1rem 2rem 0rem 2rem !important;
   }
 }
