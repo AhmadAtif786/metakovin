@@ -227,7 +227,7 @@ const MintCard = () => {
                           marginBottom: "0px",
                         }}
                       >
-                        {""} 0{" "}
+                        {""} 0
                         <span
                           style={{
                             color: "rgb(255, 200, 6)",
