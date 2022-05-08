@@ -45,9 +45,10 @@ const Home = () => {
         <div className="overlay">
           <div class="container ">
             <div class="row rowgut">
-              <div class="col-md-7">
+              <div class="col-md-8">
                 <div class="p-3  margin1">
-                  <h4 className="mainhead">
+                  <div id="timer" style={{ display: "inlineBlock" }}></div>
+                  <h4 className="mainhead mt-3">
                     Explore the red planet and build a civilisation to earn up
                     to 6% rewards daily.
                   </h4>
@@ -116,7 +117,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-4">
                 <div class="p-3">
                   <Card
                     style={{

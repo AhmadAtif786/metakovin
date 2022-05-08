@@ -340,6 +340,23 @@ input {
   color: #fff;
   line-height: 38px;
 }
+#timer {
+  font-size: 3em;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+  text-align: center;
+}
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+}
+#timer span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.35em;
+  font-weight: 800;
+}
 .bgsecond {
   background: linear-gradient(
     180deg,
@@ -360,7 +377,7 @@ input {
 .featurepara {
   font-family: Roboto;
 
-  font-size: 14px;
+  font-size: 17px;
 
   color: white;
   text-align: justified;
