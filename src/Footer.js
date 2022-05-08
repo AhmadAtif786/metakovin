@@ -16,13 +16,13 @@ const Footer = () => {
         <a href="https://www.bscscan.com/" target="_blank">
           <img src={two} className="foot" />
         </a>
-        <a href="https://www.bscscan.com/" target="_blank">
+        <a href="https://t.me/riseofmars" target="_blank">
           <img src={three} className="foot" />
         </a>
-        <a href="https://www.bscscan.com/" target="_blank">
+        <a href="https://twitter.com/riseofmarsbnb" target="_blank">
           <img src={four} className="foot" />
         </a>
-        <a href="https://www.bscscan.com/" target="_blank">
+        <a href="https://dappradar.com/ " target="_blank">
           <img src={five} className="foot" />
         </a>
       </div>

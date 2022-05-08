@@ -60,7 +60,12 @@ const Navbartop = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#features">Audit</Nav.Link>
-              <Nav.Link href="#pricing">How to Play</Nav.Link>
+              <Nav.Link
+                href=" https://medium.com/@theriseofmars/riseofmars-bnb-miner-how-to-play-guide-a525c4a52bbd"
+                target="_blank"
+              >
+                How to Play
+              </Nav.Link>
               <Nav.Link href="#pricing">
                 {" "}
                 <button
@@ -282,9 +287,9 @@ const Navbartop = () => {
                   </div>
                 </div>
               </Nav.Link>
-              <Nav.Link href="#pricing">
+              <Nav.Link href="https://www.bscscan.com/ " target="_blank">
                 {" "}
-                <a href="https://www.bscscan.com/" target="_blank">
+                <a href="https://www.bscscan.com/">
                   <img
                     src={two}
                     style={{ width: "20px", marginRight: "10px" }}
@@ -292,9 +297,12 @@ const Navbartop = () => {
                 </a>
                 Contract
               </Nav.Link>{" "}
-              <Nav.Link href="#pricing">
+              <Nav.Link
+                href="https://twitter.com/riseofmarsbnb"
+                target="_blank"
+              >
                 {" "}
-                <a href="https://www.bscscan.com/" target="_blank">
+                <a href="https://twitter.com/riseofmarsbnb">
                   <img
                     src={four}
                     style={{ width: "20px", marginRight: "10px" }}
@@ -302,9 +310,9 @@ const Navbartop = () => {
                 </a>
                 Twitter
               </Nav.Link>{" "}
-              <Nav.Link href="#pricing">
+              <Nav.Link href="https://t.me/riseofmars" target="_blank">
                 {" "}
-                <a href="https://www.bscscan.com/" target="_blank">
+                <a>
                   <img
                     src={three}
                     style={{ width: "20px", marginRight: "10px" }}
