@@ -132,7 +132,7 @@ const MintCard = () => {
                     marginBottom: "0px",
                   }}
                 >
-                  Initial Deposit
+                  Sold Cities
                   <br />- 0{" "}
                   <span style={{ color: " rgba(255, 200, 6, 1)" }}>
                     <b>BNB</b>
@@ -160,7 +160,7 @@ const MintCard = () => {
                     marginBottom: "0px",
                   }}
                 >
-                  Initial Deposit
+                  Referral Rewards
                   <br />- 0{" "}
                   <span style={{ color: " rgba(255, 200, 6, 1)" }}>
                     <b>BNB</b>
