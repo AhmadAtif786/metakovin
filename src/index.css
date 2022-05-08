@@ -336,7 +336,7 @@ input {
 .mainhead {
   font-weight: 500 !important;
   font-family: Roboto !important;
-  font-size: 26px;
+  font-size: 29px;
   color: #fff;
   line-height: 38px;
 }
@@ -355,6 +355,7 @@ input {
   color: white;
   font-family: Roboto;
   text-align: justify;
+  font-size: 20px;
 }
 .featurepara {
   font-family: Roboto;

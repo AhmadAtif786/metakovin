@@ -51,7 +51,7 @@ const Home = () => {
                     Explore the red planet and build a civilisation to earn up
                     to 6% rewards daily.
                   </h4>
-                  <p className="mainpara">
+                  <p className="mainpara mt-4">
                     Rise of Mars is first of its kind blockchain game to offer
                     very innovative features like anti-whale mechanism, low
                     Inflation rate, withdraw cool down timer, mandatory compound
