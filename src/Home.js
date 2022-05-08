@@ -88,7 +88,7 @@ const Home = () => {
                   <div class="modal-dialog" role="document">
                     <div
                       class="modal-content "
-                      style={{ backgroundColor: "#F58824" }}
+                      style={{ backgroundColor: "rgba(41, 41, 41, 1)" }}
                     >
                       <div>
                         <button
