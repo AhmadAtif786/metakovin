@@ -47,6 +47,13 @@ const Home = () => {
             <div class="row rowgut">
               <div class="col-md-8">
                 <div class="p-3  margin1">
+                  <h4
+                    className="mainhead mt-3"
+                    id="timerhead"
+                    style={{ textAlign: "center" }}
+                  >
+                    LAUNCHING IN
+                  </h4>
                   <div id="timer" style={{ display: "inlineBlock" }}></div>
                   <h4 className="mainhead mt-3">
                     Explore the red planet and build a civilisation to earn up
@@ -140,7 +147,9 @@ const Home = () => {
                       </div>
                       <div class="dataRow">
                         <div class="name">Martains</div>
-                        <div class="value">0.00</div>
+                        <div class="value" style={{ marginRight: "14px" }}>
+                          0.00
+                        </div>
                       </div>
                     </Card.Body>
                   </Card>
